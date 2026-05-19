@@ -2,7 +2,7 @@
  * VortexDL — Cloudflare Worker v3.1 (Optimized & Fixed)
  */
 
-const COBALT = 'https://api.cobalt.tools';
+const COBALT = 'https://api.cobalt.lol';
 
 const CORS = {
   'Access-Control-Allow-Origin': '*',
