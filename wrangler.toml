@@ -1,0 +1,15 @@
+name = "vortexdl-worker"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Worker will be available at:
+# https://vortexdl-worker.<your-subdomain>.workers.dev
+
+[vars]
+APP_VERSION = "2.0"
+
+# Uncomment if you want custom domain:
+# [[routes]]
+# pattern = "api.yourdomain.com/*"
+# zone_name = "yourdomain.com"
